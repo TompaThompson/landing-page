@@ -1,1 +1,119 @@
-  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ============= HEADER SECTION ============= */
+.header{
+  align-items: center;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.header h1 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.header ul {
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+/* ============= FOOTER SECTION ============= */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 50px 0;
+}
+
+
+/* ============= HERO SECTION ============= */
+.hero {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 20px 100px;
+}
+
+.hero-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  color:  #f9faf8;
+  font-size: 18px;
+  padding: 9px 18px;
+}
+
+
+/* ============= CARD SECTION ============= */
+.content-1 h2 {
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 36px;
+  margin: 36px auto;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+.card {
+  color: #727A85;
+  font-size: 18px;
+  text-align: center;
+  width: 250px;
+}
+
+.card img {
+  border: 4px solid #3882f6;
+  border-radius: 18px;
+}
+
+
+/* ============= QUETO SECTION ============= */
+.content-2 {
+  align-items: center;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+p.thor {
+  text-align: right;
+}
