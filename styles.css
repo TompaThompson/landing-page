@@ -12,7 +12,7 @@ body {
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 160px;
 }
 
 .header h1 {
@@ -46,22 +46,28 @@ body {
 
 /* ============= HERO SECTION ============= */
 .hero {
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
   color: #e5e7eb;
+  display: flex;
   font-size: 18px;
-  padding: 20px 100px;
+  gap: 24px;
+  justify-content: center;
+  padding: 20px 160px 80px 160px;
 }
 
 .hero-text h1 {
   color: #f9faf8;
+  display: flex;
   font-size: 48px;
   font-weight: bolder;
+  margin: 0;
+  width: 400px;
 }
 
+.hero-p {
+  padding: 12px 0;
+}
 .hero-text button {
   background-color: #3882f6;
   border: none;
@@ -85,6 +91,7 @@ body {
   display: flex;
   gap: 18px;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .card {
@@ -106,14 +113,52 @@ body {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  padding: 20px 100px;
+  padding: 100px;
 }
 
 .quote {
+  width: 800px;
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
+  margin: 0;
 }
-p.thor {
+.thor {
   text-align: right;
+  width: 800px;
+}
+
+
+/* ============= CALL TO ACTION SECTION ============= */
+.content-3 {
+  display: flex;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  border-radius: 18px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+  padding: 50px;
+  width: 1000px;
+}
+
+.call-to-action h2 {
+  margin: 0;
+}
+
+.call-to-action p {
+  margin: 0;
+}
+
+.call-to-action button {
+  background-color: #3882f6;
+  border: 3px solid #f9faf8;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 2px 36px;
+
 }

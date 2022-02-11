@@ -32,3 +32,20 @@
   - Font is roboto
   - 4 Main sections
   - Footer
+
+### Colors and font styles
+Dark background color (hero and footer) - # 1f2937
+
+Hero main text - 48px extra-bold #f9faf8
+
+Hero secondary text, Header link text - 18px #e5e7eb
+
+Header logo text - 24px #f9faf8
+
+Button color, call to action background color - #3882f6
+
+Information header text - 36px extra-bold #1f2937
+
+Quote section background color - #e5e7eb
+
+Quote text - 36px light italic #1f2937
